@@ -1,5 +1,6 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 13px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -26,6 +27,7 @@ div#content{
 div h1{
     letter-spacing: 0.5rem;
     padding: 0px 50px 0px 50px;
+    color: hsl(0, 6%, 24%);
 }
 
 div p {
@@ -111,3 +113,60 @@ footer {
     margin-top: 25px;
     margin-bottom: 50px;
 }
+
+
+
+@media screen and (min-width: 720px){   
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    width: 1440px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    background-image: url('/images/bg-pattern-desktop.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+div.logo{
+    display: inline-block;
+    width: 300px;
+    margin-left:100px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+div#hero{
+    margin: 0px;
+    float: right;
+}
+div#content{
+    width: 475px;
+    text-align: left;
+    margin-left: 100px;
+}
+div#content h1 {
+    font-size: 64px;
+    color: hsl(0, 6%, 24%);
+    padding-left: 25px;
+    letter-spacing: 0.75rem;
+}
+
+div#email{
+    margin-left: 100px;
+}
+
+input[type="email"]{
+    width: 425px;
+}
+
+input[type="submit"]{
+    width: 90px;
+}
+footer{
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+}
+}
+
