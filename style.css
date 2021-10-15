@@ -64,8 +64,8 @@ input[type="email"]{
     opacity: 0.5;
 }
 input[type="submit"]{
-    position: relative;
-    top: 20px;
+    position: absolute;
+    /* top: 20px; */
     width: 70px;
     height: 50px;
     margin-left: -90px;
@@ -123,9 +123,11 @@ footer {
 }
 body {
     width: 1440px;
+    margin: 0px auto;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     background-image: url('/images/bg-pattern-desktop.svg');
+    background-attachment: fixed;
     background-position: top left;
     background-repeat: no-repeat;
 }
@@ -170,3 +172,11 @@ footer{
 }
 }
 
+/* @media screen and (min-width: 1441px) {
+    body {
+        background-image: url('/images/bg-pattern-desktop.svg');
+        background-attachment: fixed;
+        background-position: 12.5% 0%;
+        background-repeat: no-repeat;
+    }
+} */
