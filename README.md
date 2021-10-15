@@ -95,7 +95,7 @@ In this project, I learned key things listed below:
 
 - Website - [Pankaj Pawar](https://twitter.com/DamnItAzriel)
   - Website in production. 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/DamnItAzriel)
+- Frontend Mentor - [@DamnItAzriel](https://www.frontendmentor.io/profile/DamnItAzriel)
 - Twitter - [@DamnItAzriel](https://twitter.com/DamnItAzriel)
 
 ## Acknowledgments
